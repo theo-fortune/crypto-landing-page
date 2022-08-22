@@ -1,0 +1,129 @@
+.navbar {
+  padding: 2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 56px;
+}
+
+.navbar__links a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0.016em;
+  color: var(--black);
+}
+
+.navbar__links a:hover {
+  color: var(--orange-red);
+}
+
+.navbar__button {
+  display: flex;
+}
+
+.navbar__button_menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__button button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.016em;
+  color: var(--white);
+
+  padding: 8px 32px;
+  background: var(--orange-red);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar__menu {
+  display: none;
+}
+
+.navbar__menu svg {
+  cursor: pointer;
+}
+
+.navbar__menu-button {
+  margin-top: 1rem;
+}
+
+.navbar__menu-button button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.016em;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: var(--orange-red);
+  color: var(--white);
+  padding: 6.25px 16.25px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 428px) {
+  .navbar {
+    padding: 2rem;
+  }
+
+  .navbar__links,
+  .navbar__button button {
+    display: none;
+  }
+
+  .navbar__logo {
+    width: 50px;
+  }
+
+  .navbar__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto 1rem;
+    margin-right: 0;
+    cursor: pointer;
+  }
+
+  .navbar__button-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: var(--green);
+    padding: 2rem 1rem;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    margin-top: 1rem;
+    min-width: 130px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+
+  .navbar__links_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .navbar__links_menu a {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,34 @@
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Hero } from "./hero/Hero";
+export { default as Brand } from "./brand/Brand";
+export { default as Features } from "./features/Features";
+export { default as Howitworks } from "./howitworks/Howitworks";
+export { default as Download } from "./download/Download";
+export { default as Support } from "./support/Support";
+export { default as Footer } from "./footer/Footer";
+
+// Images
+export { default as Logo } from "../images/logo.svg";
+export { default as playCircle } from "../images/play-circle.svg";
+export { default as heroImg } from "../images/heroImg.png";
+export { default as heroRect } from "../images/heroRect.png";
+export { default as coinbase } from "../images/coinbase.svg";
+export { default as blockchain } from "../images/blockchain.svg";
+export { default as binance } from "../images/binance.svg";
+export { default as bitmex } from "../images/bitmex.svg";
+export { default as digital } from "../images/digitalSaving.svg";
+export { default as money } from "../images/money.svg";
+export { default as secure } from "../images/secure.svg";
+export { default as wallet } from "../images/wallet.svg";
+export { default as thumb } from "../images/thumb-print.svg";
+export { default as guard } from "../images/guard.svg";
+export { default as tech } from "../images/digital.png";
+export { default as rect } from "../images/rect.png";
+export { default as glass } from "../images/glassEllipse.png";
+export { default as Google } from "../images/google-play.svg";
+export { default as Apple } from "../images/apple-app.svg";
+export { default as mobile } from "../images/digital2.png";
+export { default as Facebook } from "../images/facebook.svg";
+export { default as Twitter } from "../images/twitter.svg";
+export { default as Instagram } from "../images/instagram.svg";
+export { default as digitalMobile } from "../images/mobile.png";

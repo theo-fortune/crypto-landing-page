@@ -1,0 +1,137 @@
+.howitworks {
+  position: relative;
+}
+
+.abs {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.howitworks__left {
+  position: relative;
+}
+
+.howitworks__left_img1 {
+  width: 500px;
+  position: absolute;
+  z-index: -2;
+  top: 150px;
+}
+
+.howitworks__left_img2 {
+  width: 400px;
+}
+
+.howitworks__left_img3 {
+  width: 280px;
+  position: absolute;
+  left: 90px;
+  bottom: 90px;
+  z-index: -1;
+}
+
+.howitworks__right h1 {
+  width: 590.38px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  letter-spacing: 0.016em;
+  margin-bottom: 24px;
+  color: var(--black);
+}
+
+.howitworks__right p {
+  width: 581.2px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.016em;
+  margin-bottom: 62px;
+  color: var(--gray);
+}
+
+.howitworks__right button {
+  width: 316px;
+  height: 70px;
+  cursor: pointer;
+  border: 1px solid var(--orange-red);
+  outline: none;
+  border-radius: 5px;
+  background: transparent;
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: var(--orange-red);
+}
+
+@media screen and (max-width: 428px) {
+  .abs {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+  }
+  .howitworks__left_img1 {
+    width: 75%;
+  }
+
+  .howitworks__left_img2 {
+    width: 300px;
+    margin-right: 100px;
+  }
+
+  .howitworks__left_img3 {
+    width: 200px;
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    z-index: -1;
+  }
+
+  .howitworks__right {
+    margin-top: 30px;
+  }
+
+  .howitworks__right h1 {
+    width: 327px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    letter-spacing: 0.016em;
+    margin-bottom: 16px;
+  }
+
+  .howitworks__right p {
+    width: 294px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.016em;
+    margin: 0 auto;
+    margin-bottom: 43px;
+  }
+
+  .howitworks__right button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.016em;
+    width: 327px;
+    height: 56px;
+    display: block;
+    margin: 0 auto;
+  }
+}

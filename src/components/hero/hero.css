@@ -1,0 +1,165 @@
+.hero {
+  padding: 2rem 4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hero__content-left h1 {
+  width: 608.85px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 130%;
+  letter-spacing: 0.016em;
+  color: var(--black);
+  margin-bottom: 30px;
+}
+
+.hero__content-left p {
+  width: 541.9px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.016em;
+  margin-bottom: 70px;
+}
+
+.hero__content-left_button {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 2rem;
+}
+
+.hero__content-left_button button {
+  width: 227px;
+  height: 75px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.hero__content-left_button1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.016em;
+  color: var(--white);
+  background: var(--orange-red);
+}
+
+.hero__content-left_button2 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__content-left_info {
+  display: flex;
+  gap: 4rem;
+}
+
+.hero__content-left_info h4 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: 0.016em;
+  color: var(--green);
+}
+
+.hero__content-left_info b {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.016em;
+  color: var(--gray);
+}
+
+.hero__content-right_img {
+  width: 500px;
+}
+
+.heroRect {
+  width: 500px;
+  position: absolute;
+  right: 0;
+  bottom: 170px;
+  z-index: -1;
+}
+
+.heroBlockImg {
+  display: none;
+}
+
+@media screen and (max-width: 428px) {
+  .hero {
+    display: block;
+    padding: 0 3rem;
+    padding-top: 0;
+  }
+
+  .hero__content-left h1 {
+    width: 327px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.016em;
+    margin-bottom: 15.66px;
+  }
+
+  .hero__content-left p {
+    width: 80%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .heroBlockImg {
+    display: block;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 23px;
+  }
+
+  .heroRect {
+    width: 75%;
+    position: absolute;
+    right: 0;
+    top: 230px;
+    z-index: -1;
+  }
+
+  .hero__content-left_button {
+    flex-direction: column-reverse;
+  }
+
+  .hero__content-left_button button {
+    width: 100%;
+    height: 56px;
+  }
+
+  .hero__content-right_img {
+    display: none;
+  }
+
+  .hero__content-left_info--users {
+    margin: 0 auto;
+  }
+
+  .hero__content-left_info {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+}

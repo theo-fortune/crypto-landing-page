@@ -1,0 +1,129 @@
+.support {
+  background: var(--green);
+  padding: 2rem 4rem;
+}
+
+.support h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.016em;
+  margin-bottom: 28px;
+  color: var(--white);
+}
+
+.support p {
+  width: 655.85px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.016em;
+  margin: 0 auto;
+  color: var(--white);
+}
+
+.support__input {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.support__input input {
+  width: 500px;
+  outline: none;
+  padding: 26px 48px;
+  background: none;
+  border: 1px solid var(--white);
+  border-radius: 5px 0px 0px 5px;
+  color: var(--white);
+}
+
+.support__input input::placeholder {
+  color: var(--white);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+}
+
+.support__input button {
+  padding: 24px 48px;
+  background: var(--orange-red);
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: var(--white);
+}
+
+@media screen and (max-width: 428px) {
+  .support {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .support h1 {
+    width: 215.17px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.016em;
+    margin-bottom: 0;
+  }
+
+  .support p {
+    width: 326.69px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.016em;
+  }
+
+  .support__input {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .support__input input {
+    width: 327px;
+    height: 56px;
+    border-radius: 5px;
+    padding: 18px 24px;
+  }
+
+  .support__input input::placeholder {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: var(--white);
+  }
+
+  .support__input button {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    padding: 16px 70px;
+    border-radius: 5px;
+  }
+}
